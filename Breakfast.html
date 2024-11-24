@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast Recipes - The Recipe Box</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #f60404;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: rgb(1, 5, 22);
+        }
+        .home-link {
+            margin-top: 10px;
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+        a:hover{
+          color: rgb(14, 43, 226);
+            font-size: larger;
+            font-weight: bold;
+
+        }
+        .recipe {
+            background: rgb(112, 37, 182);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .recipe-heading {
+            text-align: center;
+            margin: 20px;
+            font-size: 1.8em;
+            color: #ff5722;
+        }
+        .ingredients, .instructions, .video {
+            margin: 10px 0;
+        }
+        .video iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Breakfast Recipes</h1>
+    <a href="index.html" class="home-link">Home</a>
+    <a href="lunch.html" class="home-link">Lunch</a>
+    <a href="dinner.html" class="home-link">Dinner</a>
+    <a href="snacks.html" class="home-link">Snacks</a>
+</header>
+
+<main>
+    <!-- Dishes Heading -->
+    <div class="recipe-heading">Delicious Breakfast Dishes</div>
+    
+    <!-- Recipe 1 -->
+    <section class="recipe">
+        <h2>Masala Dosa</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup rice</li>
+                <li>1/4 cup urad dal</li>
+                <li>1/2 tsp fenugreek seeds</li>
+                <li>Salt to taste</li>
+                <li>Oil for cooking</li>
+            </ul>
+        </div>
+        <div class="video">
+            <h3>Video:</h3>
+            <iframe src="https://www.youtube.com/watch?v=J75VQSxOtdo&pp=ygUSbWFzYWxhIGRvc2EgcmVjaXBl"></iframe>
+        </div>
+        <div class="instructions">
+            <h3>Cooking Instructions:</h3>
+            <p>Soak rice, urad dal, and fenugreek seeds. Grind into a smooth batter and ferment overnight. Pour batter on a hot griddle and cook with a bit of oil until crispy.</p>
+        </div>
+    </section>
+
+    <!-- Recipe 2 -->
+    <section class="recipe">
+        <h2>Poha</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup flattened rice (poha)</li>
+                <li>1 onion, chopped</li>
+                <li>1 green chili, chopped</li>
+                <li>1/4 tsp mustard seeds</li>
+                <li>Salt and turmeric to taste</li>
+            </ul>
+        </div>
+        <div class="video">
+            <h3>Video:</h3>
+            <iframe src="https://www.youtube.com/watch?v=2_BkfGRcx3o&pp=ygULcG9oYSByZWNpcGU%3D"></iframe>
+        </div>
+        <div class="instructions">
+            <h3>Cooking Instructions:</h3>
+            <p>Rinse poha and drain. In a pan, add mustard seeds, onions, and green chili. Add poha, turmeric, and salt. Mix well and cook for a few minutes.</p>
+        </div>
+    </section>
+
+    <!-- Recipe 3 -->
+    <section class="recipe">
+        <h2>Aloo Paratha</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>2 cups wheat flour</li>
+                <li>2 potatoes, boiled and mashed</li>
+                <li>1/2 tsp cumin seeds</li>
+                <li>Salt and spices to taste</li>
+                <li>Ghee or oil for cooking</li>
+            </ul>
+        </div>
+        <div class="video">
+            <h3>Video:</h3>
+            <iframe src="https://www.youtube.com/watch?v=dBXiHx11niM&pp=ygUTYWxvbyBwYXJhdGhhIHJlY2lwZQ%3D%3D"></iframe>
+        </div>
+        <div class="instructions">
+            <h3>Cooking Instructions:</h3>
+            <p>Mix flour with water to make dough. Stuff with spiced mashed potatoes, roll, and cook on a griddle with ghee.</p>
+        </div>
+    </section>
+
+    <!-- Recipe 4 -->
+    <section class="recipe">
+        <h2>Upma</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup semolina (rava)</li>
+                <li>1 onion, chopped</li>
+                <li>1 green chili, chopped</li>
+                <li>1/2 tsp mustard seeds</li>
+                <li>Salt to taste</li>
+            </ul>
+        </div>
+        <div class="video">
+            <h3>Video:</h3>
+            <iframe src="https://www.youtube.com/watch?v=cAoYsLXUKGI&pp=ygULdXBtYSByZWNpcGU%3D"></iframe>
+        </div>
+        <div class="instructions">
+            <h3>Cooking Instructions:</h3>
+            <p>Toast semolina lightly. Sauté onions, chili, and mustard seeds, then add water and semolina. Stir until thickened.</p>
+        </div>
+    </section>
+
+    <!-- Recipe 5 -->
+    <section class="recipe">
+        <h2>Idli</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup rice</li>
+                <li>1/4 cup urad dal</li>
+                <li>Salt to taste</li>
+            </ul>
+        </div>
+        <div class="video">
+            <h3>Video:</h3>
+            <iframe src="https://www.youtube.com/watch?v=Ayo80PIb-Qg&pp=ygULaWRsaSByZWNpcGU%3D"></iframe>
+        </div>
+        <div class="instructions">
+            <h3>Cooking Instructions:</h3>
+            <p>Soak rice and urad dal, then grind to make a batter. Ferment overnight and steam in idli molds until soft.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 The Recipe Box. All rights reserved.</p>
+  <p><a href="feedback.html" class="home-link">Leave Your Feedback</a></p>
+</footer>
+
+
+</body>
+</html>
